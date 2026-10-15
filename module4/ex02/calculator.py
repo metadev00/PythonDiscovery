@@ -7,5 +7,5 @@ print("Thank you!")
 
 print(f"{first_number} + {second_number} = {first_number + second_number}")
 print(f"{first_number} - {second_number} = {first_number - second_number}")
-print(f"{first_number} / {second_number} = {int(first_number / second_number)}")
+print(f"{first_number} / {second_number} = {first_number / second_number}")
 print(f"{first_number} * {second_number} = {first_number * second_number}")
