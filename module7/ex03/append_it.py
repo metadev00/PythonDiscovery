@@ -3,8 +3,10 @@ import sys
 
 lista_argumentos = sys.argv[1::]
 
-if len(sys.argv) == 0 :
-	print("none")
+if not lista_argumentos:
+    print("none")
 else:
-	for i in lista_argumentos:
-		i.append 
+    for palabra in lista_argumentos:
+        if "ism" not in palabra:
+            print(palabra + "ism")
+

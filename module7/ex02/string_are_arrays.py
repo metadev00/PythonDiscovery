@@ -12,8 +12,8 @@ if len(parametros) > 1:
 	if  num_zeta_aparecido == 0:
 		print("none")
 	else:
-		for _ in range num_zeta_aparecido:
-			txt_zeta+=z
+		for _ in range(0,num_zeta_aparecido):
+			txt_zeta+="z"
 		print(txt_zeta)
 		
 else:
