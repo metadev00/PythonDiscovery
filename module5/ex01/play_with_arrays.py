@@ -1,19 +1,16 @@
-numeros = [2, 8, 9, 48, 8, 22, -12, 2]
-print("Original array [ " + " ".join(map(str, numeros)) + " ]")
+#!/usr/bin/env python 
+
+array_original = [2, 8, 9, 48, 8, 22, -12, 2]
+array_modificado = []
+
+print(f"Original array: {array_original}")
 
 
-#Opcion 1
-
-print("New arra: [",end=" ")
-for i in numeros:
-    print(i + 2,end=" ")
-
-print("]",end=" ")
 
 
-#Opcion 1
-''' 
-new_array = map(lambda x: x + 2, numeros)
-print("New arra: [ " + " ".join(map(str, new_array)) + " ]")
-'''
 
+for i in array_original:
+    array_modificado.append(i+2)
+     
+
+print(f"New array: {array_modificado}")
